@@ -18,7 +18,7 @@ Machine learning models like **RFdiffusion** and **AlphaFold3** can now design a
 - ❌ **Wrong therapeutic profile** (anti-inflammatory vs. pro-inflammatory)
 - ❌ Expensive produce-test-redesign cycles ($500K+ per iteration)
 
-## 💡 The Solution
+## The Solution
 
 We developed a **mechanistic kinetic model** that predicts site-specific sialylation directly from 3D structures (PDB or AlphaFold predictions). The model uses:
 
@@ -95,7 +95,7 @@ Even within the **same antibody**, different chains show dramatic differences:
 
 ---
 
-## 🔬 Scientific Approach
+## Scientific Approach
 
 ### Mechanistic Framework
 
