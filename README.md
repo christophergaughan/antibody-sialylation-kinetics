@@ -6,7 +6,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![bioRxiv](https://img.shields.io/badge/bioRxiv-pending-blue)](LINK_WHEN_POSTED)
 
-## 🎯 The Problem
+## The Problem
 
 Machine learning models like **RFdiffusion** and **AlphaFold3** can now design antibody CDRs with sub-angstrom accuracy. However, these models predict structure from sequence alone, **ignoring post-translational modifications** that occur during cellular production.
 
@@ -34,7 +34,7 @@ We developed a **mechanistic kinetic model** that predicts site-specific sialyla
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Run in Google Colab (No Installation Required)
 1. Click the Colab badge above
@@ -63,7 +63,7 @@ print(f"Predicted sialylation: {predicted_sialylation:.1%}")
 
 ---
 
-## 📊 Key Results
+## Key Results
 
 ### 1. Solvent Accessibility Dominates (r = 0.93)
 
@@ -135,7 +135,7 @@ This explains why CHO cells produce only 10-15% sialylated antibodies despite ad
 
 ---
 
-## 🎯 Applications
+## Applications
 
 ### 1. **Rational Antibody Design**
 
@@ -197,7 +197,7 @@ for design in rfdiffusion_outputs:
 
 ---
 
-## 📈 Validation
+## Validation
 
 ### Dataset
 - 3 IgG structures (1IGT, 1HZH, 1IGY)
@@ -221,7 +221,7 @@ for design in rfdiffusion_outputs:
 
 ---
 
-## 🔮 Comparison: This Model vs. Alternatives
+## Comparison: This Model vs. Alternatives
 
 | Approach | Accuracy | Interpretability | Prospective Use | Training Data |
 |----------|----------|------------------|----------------|---------------|
@@ -234,7 +234,7 @@ for design in rfdiffusion_outputs:
 
 ---
 
-## 🧬 Integration with ML Antibody Design
+## Integration with ML Antibody Design
 
 ### Workflow: Glycan-Aware Design Pipeline
 ```
@@ -261,7 +261,7 @@ for design in rfdiffusion_outputs:
 
 ---
 
-## 📚 Model Details
+## Model Details
 
 ### Why R² = 0.64 is Good (Not Bad)
 
@@ -305,7 +305,7 @@ for design in rfdiffusion_outputs:
 
 ---
 
-## 🛠️ Limitations & Future Work
+## Limitations & Future Work
 
 ### Current Limitations
 - Small training dataset (n=3)
@@ -336,7 +336,7 @@ for design in rfdiffusion_outputs:
 
 ---
 
-## 📖 Methods Summary
+## Methods Summary
 
 **For full details, see:** [Complete Methods Documentation](docs/methods.md)
 
@@ -363,7 +363,7 @@ P(sia) = 1 - exp(-k_eff × t)
 
 ---
 
-## 📄 Citation
+## Citation
 
 If you use this model in your research, please cite:
 ```bibtex
@@ -380,7 +380,7 @@ If you use this model in your research, please cite:
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 Contributions welcome! Priority areas:
 
@@ -405,7 +405,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
 
 ---
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 This work builds on:
 - **Enzyme kinetics data:** BRENDA database
@@ -415,7 +415,7 @@ This work builds on:
 
 ---
 
-## 📑 References
+## References
 
 1. **Vattepu R, et al.** (2022) Sialylation as an Important Regulator of Antibody Function. *Front Immunol* 13:818736
 2. **Bennett NR, et al.** (2024) Improving de novo protein binder design with deep learning. *bioRxiv*
@@ -426,7 +426,7 @@ See [REFERENCES.md](docs/references.md) for complete bibliography.
 
 ---
 
-## 📜 License
+## License
 
 MIT License - Free for academic use. For commercial applications, please contact for licensing terms.
 
