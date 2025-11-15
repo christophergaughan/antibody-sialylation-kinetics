@@ -8,7 +8,7 @@
 
 ## The Problem
 
-Machine learning models like **RFdiffusion** and **AlphaFold3** can now design antibody CDRs with sub-angstrom accuracy. However, these models predict structure from sequence alone, **ignoring post-translational modifications** that occur during cellular production.
+Machine learning models like **RFdiffusion** and **AlphaFold3** can now design antibody CDRs with sub-angstrom accuracy. This is a quantum-leap forward in ML designed antibody manufacture. However, these models predict structure from sequence alone, **ignoring post-translational modifications** (PTM's) that occur during cellular production. It is understandable that development is starting without considering these PTM's- afterall, only ~15% of IgG's are glycosylated in the Fab region. However there are noted glycosylation events close to the CDR region as welll as other PTM's. 
 
 **The result?** Computationally "perfect" antibodies that fail in the lab due to unexpected glycosylation.
 
